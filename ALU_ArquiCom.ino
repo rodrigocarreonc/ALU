@@ -117,5 +117,4 @@ if ((!z && y && x && w)) {
   digitalWrite(11, LOW);
   digitalWrite(10, LOW);
   digitalWrite(9, LOW);
-
 }
