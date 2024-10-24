@@ -8,12 +8,13 @@
 
 void setup() {
   //Pines de entrada para A, B, w, x, y, z
-  pinMode(2, INPUT); 
-  pinMode(3, INPUT);
-  pinMode(4, INPUT);
-  pinMode(5, INPUT);
-  pinMode(6, INPUT);
-  pinMode(7, INPUT);
+  pinMode(2, INPUT); //A 
+  pinMode(3, INPUT); //B
+  
+  pinMode(4, INPUT); //w
+  pinMode(5, INPUT); //x
+  pinMode(6, INPUT); //y
+  pinMode(7, INPUT); //z
   //Pines de salida para cada operación
   //SUMA, RESTA, DIVISION, MULTIPLICACION
   pinMode(13, OUTPUT);
